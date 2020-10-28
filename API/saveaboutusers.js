@@ -22,7 +22,7 @@ function save(name, dob, tperc, twperc, ugperc, highqualification, lfor, course,
     })
 
     info.save((err, result) => {
-        if (errr) {
+        if (err) {
             console.log(err)
         } else {
             console.log("data saved successfully!!")
